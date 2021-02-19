@@ -16,7 +16,7 @@ class TweetsItem(Item):
 
 
 class InformationItem(Item):
-    """ 个人信息 """
+    """ 个人信息      """
     _id = Field()  # 用户ID
     nick_name = Field()  # 昵称
     gender = Field()  # 性别
